@@ -1,0 +1,600 @@
+{
+  "datasets": {
+    "ds_jobs": {
+      "file": "ds_jobs_clean.csv",
+      "row_count": 1602
+    },
+    "analytics_jobs": {
+      "file": "analytics_jobs_clean.csv",
+      "row_count": 15841
+    },
+    "jds_skills": {
+      "file": "jds_skills_clean.csv",
+      "row_count": 139
+    },
+    "sds_personality": {
+      "file": "sds_personality_clean.csv",
+      "row_count": 161
+    }
+  },
+  "total_records_analyzed": 17743,
+  "major_analysis_outputs": {
+    "ds_top_roles": [
+      {
+        "job_title": "Business Analyst",
+        "total_jobs": 32843
+      },
+      {
+        "job_title": "Data Analyst",
+        "total_jobs": 18095
+      },
+      {
+        "job_title": "Senior Business Analyst",
+        "total_jobs": 14115
+      },
+      {
+        "job_title": "Data Scientist",
+        "total_jobs": 9051
+      },
+      {
+        "job_title": "Data Engineer",
+        "total_jobs": 8044
+      },
+      {
+        "job_title": "Senior Data Analyst",
+        "total_jobs": 3825
+      },
+      {
+        "job_title": "Senior Data Engineer",
+        "total_jobs": 3411
+      },
+      {
+        "job_title": "Senior Data Scientist",
+        "total_jobs": 2129
+      },
+      {
+        "job_title": "Machine Learning Engineer",
+        "total_jobs": 964
+      },
+      {
+        "job_title": "Data Architect",
+        "total_jobs": 528
+      }
+    ],
+    "ds_top_companies": [
+      {
+        "company_name": "TCS",
+        "total_jobs": 9064
+      },
+      {
+        "company_name": "Accenture",
+        "total_jobs": 5425
+      },
+      {
+        "company_name": "Cognizant",
+        "total_jobs": 3813
+      },
+      {
+        "company_name": "Wipro",
+        "total_jobs": 2566
+      },
+      {
+        "company_name": "IBM",
+        "total_jobs": 2480
+      },
+      {
+        "company_name": "Genpact",
+        "total_jobs": 2147
+      },
+      {
+        "company_name": "Capgemini",
+        "total_jobs": 1994
+      },
+      {
+        "company_name": "L&T Infotech",
+        "total_jobs": 1873
+      },
+      {
+        "company_name": "Tech Mahindra",
+        "total_jobs": 1830
+      },
+      {
+        "company_name": "HCL Technologies",
+        "total_jobs": 1783
+      }
+    ],
+    "ds_salary_summary": [
+      {
+        "variable": "min_salary_num",
+        "count": 1602,
+        "mean": 8.634144818976278,
+        "median": 7.0,
+        "standard_deviation": 5.796976439412343,
+        "minimum": 0.2,
+        "maximum": 55.0
+      },
+      {
+        "variable": "avg_salary_num",
+        "count": 1602,
+        "mean": 13.234893882646691,
+        "median": 11.9,
+        "standard_deviation": 7.840743833021559,
+        "minimum": 1.4,
+        "maximum": 82.0
+      },
+      {
+        "variable": "max_salary_num",
+        "count": 1602,
+        "mean": 19.14325842696629,
+        "median": 18.0,
+        "standard_deviation": 11.150179530153778,
+        "minimum": 2.0,
+        "maximum": 102.0
+      }
+    ],
+    "ds_experience_summary": {
+      "count": 1602,
+      "mean": 2.799001248439451,
+      "median": 2.0,
+      "standard_deviation": 2.353685748644311,
+      "minimum": 0.0,
+      "maximum": 21.0,
+      "salary_pair_count": 1602,
+      "pearson_correlation_min_experience_avg_salary": 0.5933493932106845
+    },
+    "analytics_top_roles": [
+      {
+        "job_desig": "Business Analyst",
+        "posting_count": 108,
+        "percentage": 0.6817751404583045
+      },
+      {
+        "job_desig": "Data Scientist",
+        "posting_count": 64,
+        "percentage": 0.4040148980493656
+      },
+      {
+        "job_desig": "Data Analyst",
+        "posting_count": 50,
+        "percentage": 0.3156366391010669
+      },
+      {
+        "job_desig": "Digital Marketing Manager",
+        "posting_count": 45,
+        "percentage": 0.28407297519096014
+      },
+      {
+        "job_desig": "Home Base Job/ Data Entry/online Work/part Time Work/freelancer work",
+        "posting_count": 45,
+        "percentage": 0.28407297519096014
+      },
+      {
+        "job_desig": "Product Manager",
+        "posting_count": 44,
+        "percentage": 0.2777602424089388
+      },
+      {
+        "job_desig": "Digital Marketing Executive",
+        "posting_count": 36,
+        "percentage": 0.22725838015276814
+      },
+      {
+        "job_desig": "Analyst",
+        "posting_count": 35,
+        "percentage": 0.2209456473707468
+      },
+      {
+        "job_desig": "SEO Executive",
+        "posting_count": 29,
+        "percentage": 0.18306925067861876
+      },
+      {
+        "job_desig": "SEO Analyst",
+        "posting_count": 26,
+        "percentage": 0.16413105233255476
+      },
+      {
+        "job_desig": "Microsoft Advanced Analytics",
+        "posting_count": 24,
+        "percentage": 0.15150558676851208
+      },
+      {
+        "job_desig": "Associate",
+        "posting_count": 24,
+        "percentage": 0.15150558676851208
+      },
+      {
+        "job_desig": "Application Developer",
+        "posting_count": 22,
+        "percentage": 0.1388801212044694
+      },
+      {
+        "job_desig": "Program Control Services",
+        "posting_count": 22,
+        "percentage": 0.1388801212044694
+      },
+      {
+        "job_desig": "Software Engineer",
+        "posting_count": 22,
+        "percentage": 0.1388801212044694
+      }
+    ],
+    "analytics_top_locations": [
+      {
+        "location": "Bengaluru",
+        "posting_count": 3333,
+        "percentage": 21.040338362477115
+      },
+      {
+        "location": "Mumbai",
+        "posting_count": 1992,
+        "percentage": 12.574963701786503
+      },
+      {
+        "location": "Gurgaon",
+        "posting_count": 1313,
+        "percentage": 8.288618142794016
+      },
+      {
+        "location": "Pune",
+        "posting_count": 945,
+        "percentage": 5.965532479010164
+      },
+      {
+        "location": "Hyderabad",
+        "posting_count": 878,
+        "percentage": 5.542579382614734
+      },
+      {
+        "location": "Chennai",
+        "posting_count": 786,
+        "percentage": 4.961807966668771
+      },
+      {
+        "location": "Delhi NCR",
+        "posting_count": 593,
+        "percentage": 3.743450539738653
+      },
+      {
+        "location": "Noida",
+        "posting_count": 403,
+        "percentage": 2.544031311154599
+      },
+      {
+        "location": "Delhi NCR, Gurgaon",
+        "posting_count": 278,
+        "percentage": 1.7549397134019318
+      },
+      {
+        "location": "Delhi",
+        "posting_count": 198,
+        "percentage": 1.2499210908402247
+      },
+      {
+        "location": "Gurgaon, Gurugram",
+        "posting_count": 195,
+        "percentage": 1.2309828924941608
+      },
+      {
+        "location": "Kolkata",
+        "posting_count": 159,
+        "percentage": 1.0037245123413925
+      },
+      {
+        "location": "Ahmedabad",
+        "posting_count": 150,
+        "percentage": 0.9469099173032005
+      },
+      {
+        "location": "Navi Mumbai",
+        "posting_count": 114,
+        "percentage": 0.7196515371504324
+      },
+      {
+        "location": "Kochi",
+        "posting_count": 77,
+        "percentage": 0.48608042421564296
+      }
+    ],
+    "analytics_job_types": [
+      {
+        "job_type": "Unknown",
+        "posting_count": 12011,
+        "percentage": 75.82223344485828
+      },
+      {
+        "job_type": "analytics",
+        "posting_count": 3781,
+        "percentage": 23.868442648822676
+      },
+      {
+        "job_type": "analytic",
+        "posting_count": 49,
+        "percentage": 0.3093239063190455
+      }
+    ],
+    "analytics_salary_summary": [
+      {
+        "variable": "salary_min",
+        "count": 15841,
+        "mean": 8.862634934663216,
+        "median": 10.0,
+        "standard_deviation": 6.911165636538521,
+        "minimum": 0.0,
+        "maximum": 25.0
+      },
+      {
+        "variable": "salary_max",
+        "count": 15841,
+        "mean": 15.678618774067294,
+        "median": 15.0,
+        "standard_deviation": 12.493525717737617,
+        "minimum": 3.0,
+        "maximum": 50.0
+      },
+      {
+        "variable": "salary_midpoint",
+        "count": 15841,
+        "mean": 12.270626854365254,
+        "median": 12.5,
+        "standard_deviation": 9.656390902915415,
+        "minimum": 1.5,
+        "maximum": 37.5
+      }
+    ],
+    "analytics_experience_summary": [
+      {
+        "variable": "experience_min",
+        "count": 15841,
+        "mean": 4.318477368852976,
+        "median": 3.0,
+        "standard_deviation": 3.346208861092518,
+        "minimum": 0.0,
+        "maximum": 23.0
+      },
+      {
+        "variable": "experience_max",
+        "count": 15841,
+        "mean": 8.064011110409696,
+        "median": 7.0,
+        "standard_deviation": 4.234799709749534,
+        "minimum": 0.0,
+        "maximum": 30.0
+      },
+      {
+        "variable": "experience_midpoint",
+        "count": 15841,
+        "mean": 6.191244239631336,
+        "median": 5.5,
+        "standard_deviation": 3.7319420058262978,
+        "minimum": 0.0,
+        "maximum": 26.5
+      }
+    ],
+    "skill_count": 8532,
+    "top_skills": [
+      {
+        "skill": "analytics",
+        "count": 1048,
+        "percentage": 6.6157439555583615
+      },
+      {
+        "skill": "sql",
+        "count": 1009,
+        "percentage": 6.369547377059529
+      },
+      {
+        "skill": "python",
+        "count": 938,
+        "percentage": 5.921343349536014
+      },
+      {
+        "skill": "finance",
+        "count": 811,
+        "percentage": 5.1196262862193045
+      },
+      {
+        "skill": "java",
+        "count": 752,
+        "percentage": 4.7471750520800455
+      },
+      {
+        "skill": "business analysis",
+        "count": 730,
+        "percentage": 4.608294930875576
+      },
+      {
+        "skill": "machine learning",
+        "count": 724,
+        "percentage": 4.570418534183448
+      },
+      {
+        "skill": "data analysis",
+        "count": 721,
+        "percentage": 4.551480335837384
+      },
+      {
+        "skill": "r",
+        "count": 719,
+        "percentage": 4.538854870273341
+      },
+      {
+        "skill": "sas",
+        "count": 712,
+        "percentage": 4.494665740799192
+      },
+      {
+        "skill": "digital marketing",
+        "count": 612,
+        "percentage": 3.863392462597058
+      },
+      {
+        "skill": "project management",
+        "count": 575,
+        "percentage": 3.6298213496622687
+      },
+      {
+        "skill": "javascript",
+        "count": 561,
+        "percentage": 3.5414430907139702
+      },
+      {
+        "skill": "data analytics",
+        "count": 526,
+        "percentage": 3.3204974433432235
+      },
+      {
+        "skill": "seo",
+        "count": 515,
+        "percentage": 3.2510573827409885
+      }
+    ],
+    "skill_category_demand": [
+      {
+        "category": "Other",
+        "count": 65656
+      },
+      {
+        "category": "Programming",
+        "count": 4216
+      },
+      {
+        "category": "Analytics",
+        "count": 3062
+      },
+      {
+        "category": "Database",
+        "count": 2035
+      },
+      {
+        "category": "AI/ML",
+        "count": 1346
+      },
+      {
+        "category": "Big Data",
+        "count": 1253
+      },
+      {
+        "category": "Visualization",
+        "count": 899
+      },
+      {
+        "category": "Statistics",
+        "count": 264
+      },
+      {
+        "category": "Cloud",
+        "count": 212
+      }
+    ],
+    "jds_group_counts": {
+      "High": 73,
+      "Low": 66
+    },
+    "jds_group_comparison": [
+      {
+        "skill": "big_data_skills",
+        "high_group_mean": 3.9397260273972607,
+        "low_group_mean": 3.75,
+        "difference": 0.18972602739726074
+      },
+      {
+        "skill": "maths-stats_skills",
+        "high_group_mean": 4.712328767123288,
+        "low_group_mean": 3.8303030303030305,
+        "difference": 0.8820257368202573
+      },
+      {
+        "skill": "coding_skills",
+        "high_group_mean": 4.6438356164383565,
+        "low_group_mean": 3.8530303030303026,
+        "difference": 0.7908053134080539
+      },
+      {
+        "skill": "ai_and_ml_skills",
+        "high_group_mean": 4.821917808219178,
+        "low_group_mean": 4.283333333333333,
+        "difference": 0.5385844748858446
+      },
+      {
+        "skill": "dashboard_and_storytelling_skills",
+        "high_group_mean": 4.845205479452055,
+        "low_group_mean": 3.8136363636363635,
+        "difference": 1.0315691158156914
+      }
+    ],
+    "sds_group_counts": {
+      "High": 85,
+      "Low": 76
+    },
+    "sds_group_comparison": [
+      {
+        "trait": "neuroticism",
+        "high_success_mean": 36.129411764705885,
+        "low_success_mean": 36.26315789473684,
+        "difference": -0.13374613003095703
+      },
+      {
+        "trait": "extraversion",
+        "high_success_mean": 48.858823529411765,
+        "low_success_mean": 36.88157894736842,
+        "difference": 11.977244582043348
+      },
+      {
+        "trait": "openness_to_experience",
+        "high_success_mean": 48.49411764705882,
+        "low_success_mean": 33.31578947368421,
+        "difference": 15.17832817337461
+      },
+      {
+        "trait": "agreeableness",
+        "high_success_mean": 47.71764705882353,
+        "low_success_mean": 41.11842105263158,
+        "difference": 6.599226006191948
+      },
+      {
+        "trait": "conscientiousness",
+        "high_success_mean": 53.68235294117647,
+        "low_success_mean": 35.73684210526316,
+        "difference": 17.94551083591331
+      }
+    ]
+  },
+  "generated_figures": [
+    "ds_top_10_job_titles.html",
+    "ds_top_10_companies.html",
+    "ds_salary_distribution.html",
+    "ds_experience_distribution.html",
+    "analytics_top_15_roles.html",
+    "analytics_top_15_locations.html",
+    "analytics_salary_range_distribution.html",
+    "analytics_top_15_skills.html",
+    "analytics_skill_category_demand.html",
+    "jds_high_low_skill_comparison.html",
+    "sds_high_low_personality_comparison.html"
+  ],
+  "generated_result_tables": [
+    "ds_top_roles.csv",
+    "ds_top_companies.csv",
+    "ds_salary_summary.csv",
+    "ds_salary_by_job_title.csv",
+    "ds_experience_summary.csv",
+    "ds_experience_distribution.csv",
+    "ds_salary_by_experience.csv",
+    "analytics_top_roles.csv",
+    "analytics_top_locations.csv",
+    "analytics_job_types.csv",
+    "analytics_salary_summary.csv",
+    "analytics_salary_ranges.csv",
+    "analytics_salary_midpoint_distribution.csv",
+    "analytics_experience_summary.csv",
+    "analytics_experience_distribution.csv",
+    "analytics_experience_salary.csv",
+    "skill_frequency.csv",
+    "skill_category_frequency.csv",
+    "jds_group_comparison.csv",
+    "jds_group_statistics.csv",
+    "sds_group_comparison.csv",
+    "sds_group_statistics.csv"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "ds_jobs": {
+    "original_row_count": 1602,
+    "cleaned_row_count": 1602,
+    "original_column_count": 8,
+    "cleaned_column_count": 12,
+    "missing_values_before_cleaning": {
+      "reference_no": 0,
+      "company_name": 0,
+      "job_title": 0,
+      "min_experience": 0,
+      "avg_salary": 0,
+      "min_salary": 0,
+      "max_salary": 0,
+      "num_of_jobs": 0
+    },
+    "missing_values_after_cleaning": {
+      "reference_no": 0,
+      "company_name": 0,
+      "job_title": 0,
+      "min_experience": 0,
+      "avg_salary": 0,
+      "min_salary": 0,
+      "max_salary": 0,
+      "num_of_jobs": 0,
+      "min_salary_num": 0,
+      "avg_salary_num": 0,
+      "max_salary_num": 0,
+      "min_experience_num": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_rows_after_cleaning": 0,
+    "rows_removed_as_duplicates": 0,
+    "transformations_performed": [
+      "Trimmed and collapsed whitespace in company_name and job_title; whitespace-only values were marked missing.",
+      "Added min_salary_num, avg_salary_num, and max_salary_num; original salary columns were retained and L suffixes were removed without scaling.",
+      "Added min_experience_num; existing numeric values were preserved and text values were parsed only when unambiguous."
+    ],
+    "parsing_failures": [],
+    "unexpected_target_values": []
+  },
+  "analytics_jobs": {
+    "original_row_count": 15841,
+    "cleaned_row_count": 15841,
+    "original_column_count": 8,
+    "cleaned_column_count": 15,
+    "missing_values_before_cleaning": {
+      "s_no": 0,
+      "experience": 0,
+      "job_description": 3508,
+      "job_desig": 0,
+      "job_type": 12011,
+      "key_skills": 1,
+      "location": 0,
+      "salary": 0
+    },
+    "missing_values_after_cleaning": {
+      "s_no": 0,
+      "experience": 0,
+      "job_description": 3508,
+      "job_desig": 0,
+      "job_type": 0,
+      "key_skills": 1,
+      "location": 0,
+      "salary": 0,
+      "key_skills_clean": 1,
+      "experience_min": 0,
+      "experience_max": 0,
+      "experience_midpoint": 0,
+      "salary_min": 0,
+      "salary_max": 0,
+      "salary_midpoint": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_rows_after_cleaning": 0,
+    "rows_removed_as_duplicates": 0,
+    "transformations_performed": [
+      "Trimmed and collapsed whitespace in job description, designation, job type, skills, location, salary, and experience text.",
+      "Normalized job_type capitalization and replaced missing job_type values with the requested Unknown label; other category spellings were not merged.",
+      "Added key_skills_clean with normalized case, whitespace, and common comma/semicolon/pipe separators; key_skills was retained unchanged.",
+      "Added experience_min, experience_max, and experience_midpoint from supported numeric experience ranges.",
+      "Added salary_min, salary_max, and salary_midpoint from supported numeric salary ranges."
+    ],
+    "parsing_failures": [],
+    "unexpected_target_values": []
+  },
+  "jds_skills": {
+    "original_row_count": 139,
+    "cleaned_row_count": 139,
+    "original_column_count": 7,
+    "cleaned_column_count": 7,
+    "missing_values_before_cleaning": {
+      "id": 0,
+      "big_data_skills": 0,
+      "maths-stats_skills": 0,
+      "coding_skills": 0,
+      "ai_and_ml_skills": 0,
+      "dashboard_and_storytelling_skills": 0,
+      "salary_hike_high_or_low": 0
+    },
+    "missing_values_after_cleaning": {
+      "id": 0,
+      "big_data_skills": 0,
+      "maths-stats_skills": 0,
+      "coding_skills": 0,
+      "ai_and_ml_skills": 0,
+      "dashboard_and_storytelling_skills": 0,
+      "salary_hike_high_or_low": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_rows_after_cleaning": 0,
+    "rows_removed_as_duplicates": 0,
+    "transformations_performed": [
+      "Validated and converted trait score columns to numeric; unparseable values were set to NaN and recorded.",
+      "Validated target values as binary 0/1 without replacing or deleting unexpected target values."
+    ],
+    "parsing_failures": [],
+    "unexpected_target_values": []
+  },
+  "sds_personality": {
+    "original_row_count": 161,
+    "cleaned_row_count": 161,
+    "original_column_count": 7,
+    "cleaned_column_count": 7,
+    "missing_values_before_cleaning": {
+      "id": 0,
+      "neuroticism": 0,
+      " extraversion": 0,
+      "openness_to_experience": 0,
+      "agreeableness": 0,
+      "conscientiousness": 0,
+      "success_ classification_ high_low": 0
+    },
+    "missing_values_after_cleaning": {
+      "id": 0,
+      "neuroticism": 0,
+      "extraversion": 0,
+      "openness_to_experience": 0,
+      "agreeableness": 0,
+      "conscientiousness": 0,
+      "success_classification_high_low": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_rows_after_cleaning": 0,
+    "rows_removed_as_duplicates": 0,
+    "transformations_performed": [
+      "Removed accidental whitespace in column names; no columns were dropped.",
+      "Validated and converted trait score columns to numeric; unparseable values were set to NaN and recorded.",
+      "Validated target values as binary 0/1 without replacing or deleting unexpected target values."
+    ],
+    "parsing_failures": [],
+    "unexpected_target_values": []
+  }
+}
